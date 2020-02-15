@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4F268D2B56EF23F201F475 /* Pods_AhangifyTrackPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405CC239AADE526B8C809449 /* Pods_AhangifyTrackPlayerTests.framework */; };
+		6910E74A13181320C3B4466C /* Pods_AhangifyTrackPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1B41D765D53A5FAA7121F9 /* Pods_AhangifyTrackPlayer.framework */; };
 		A46A01F923F824AC00D028C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46A01F823F824AC00D028C8 /* AppDelegate.swift */; };
 		A46A01FB23F824AC00D028C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46A01FA23F824AC00D028C8 /* SceneDelegate.swift */; };
 		A46A01FD23F824AC00D028C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46A01FC23F824AC00D028C8 /* ViewController.swift */; };
@@ -27,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029C96443D67273DE5EBFA19 /* Pods-AhangifyTrackPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhangifyTrackPlayer.release.xcconfig"; path = "Target Support Files/Pods-AhangifyTrackPlayer/Pods-AhangifyTrackPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		1C1B41D765D53A5FAA7121F9 /* Pods_AhangifyTrackPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AhangifyTrackPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B9A574275AEB7F2F471CCA /* Pods-AhangifyTrackPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhangifyTrackPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-AhangifyTrackPlayerTests/Pods-AhangifyTrackPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		405CC239AADE526B8C809449 /* Pods_AhangifyTrackPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AhangifyTrackPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B4154799326F806102FBF4 /* Pods-AhangifyTrackPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhangifyTrackPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-AhangifyTrackPlayerTests/Pods-AhangifyTrackPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CFD099B889B45D8100DDCC2 /* Pods-AhangifyTrackPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhangifyTrackPlayer.debug.xcconfig"; path = "Target Support Files/Pods-AhangifyTrackPlayer/Pods-AhangifyTrackPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		A46A01F523F824AC00D028C8 /* AhangifyTrackPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhangifyTrackPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46A01F823F824AC00D028C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A46A01FA23F824AC00D028C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6910E74A13181320C3B4466C /* Pods_AhangifyTrackPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4F268D2B56EF23F201F475 /* Pods_AhangifyTrackPlayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CDA37363160B5C014DC4D6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD099B889B45D8100DDCC2 /* Pods-AhangifyTrackPlayer.debug.xcconfig */,
+				029C96443D67273DE5EBFA19 /* Pods-AhangifyTrackPlayer.release.xcconfig */,
+				26B9A574275AEB7F2F471CCA /* Pods-AhangifyTrackPlayerTests.debug.xcconfig */,
+				41B4154799326F806102FBF4 /* Pods-AhangifyTrackPlayerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A46A01EC23F824AC00D028C8 = {
 			isa = PBXGroup;
 			children = (
 				A46A01F723F824AC00D028C8 /* AhangifyTrackPlayer */,
 				A46A020E23F824AD00D028C8 /* AhangifyTrackPlayerTests */,
 				A46A01F623F824AC00D028C8 /* Products */,
+				5CDA37363160B5C014DC4D6D /* Pods */,
+				A89B2D3788FD80CD53649D63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,15 @@
 			path = AhangifyTrackPlayerTests;
 			sourceTree = "<group>";
 		};
+		A89B2D3788FD80CD53649D63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C1B41D765D53A5FAA7121F9 /* Pods_AhangifyTrackPlayer.framework */,
+				405CC239AADE526B8C809449 /* Pods_AhangifyTrackPlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A46A021423F824AD00D028C8 /* Build configuration list for PBXNativeTarget "AhangifyTrackPlayer" */;
 			buildPhases = (
+				DF48B663BD9FDE0A81D1FC07 /* [CP] Check Pods Manifest.lock */,
 				A46A01F123F824AC00D028C8 /* Sources */,
 				A46A01F223F824AC00D028C8 /* Frameworks */,
 				A46A01F323F824AC00D028C8 /* Resources */,
+				2116EA59E0EF35A1B5809610 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A46A021723F824AD00D028C8 /* Build configuration list for PBXNativeTarget "AhangifyTrackPlayerTests" */;
 			buildPhases = (
+				40F78EB049A6600B92CB2E11 /* [CP] Check Pods Manifest.lock */,
 				A46A020723F824AD00D028C8 /* Sources */,
 				A46A020823F824AD00D028C8 /* Frameworks */,
 				A46A020923F824AD00D028C8 /* Resources */,
@@ -194,6 +230,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2116EA59E0EF35A1B5809610 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AhangifyTrackPlayer/Pods-AhangifyTrackPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AhangifyTrackPlayer/Pods-AhangifyTrackPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AhangifyTrackPlayer/Pods-AhangifyTrackPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40F78EB049A6600B92CB2E11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AhangifyTrackPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF48B663BD9FDE0A81D1FC07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AhangifyTrackPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A46A01F123F824AC00D028C8 /* Sources */ = {
@@ -360,11 +460,13 @@
 		};
 		A46A021523F824AD00D028C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFD099B889B45D8100DDCC2 /* Pods-AhangifyTrackPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39QDFGFLCK;
 				INFOPLIST_FILE = AhangifyTrackPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +480,13 @@
 		};
 		A46A021623F824AD00D028C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029C96443D67273DE5EBFA19 /* Pods-AhangifyTrackPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39QDFGFLCK;
 				INFOPLIST_FILE = AhangifyTrackPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +500,7 @@
 		};
 		A46A021823F824AD00D028C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B9A574275AEB7F2F471CCA /* Pods-AhangifyTrackPlayerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +523,7 @@
 		};
 		A46A021923F824AD00D028C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B4154799326F806102FBF4 /* Pods-AhangifyTrackPlayerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
